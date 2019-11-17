@@ -21,14 +21,14 @@ bash install_nvm.sh
 
 nvm install 12.6.0
 
-git clone --recurse-submodules https://github.com/Kove-Exchange/KOVE.git
-cd KOVE
+git clone --recurse-submodules https://github.com/Kove-Exchange/kove.git
+cd kove
 
 [sudo] npm install 
 [sudo] npm install -g forever
 ```
 
-## Here is an example of the file ~/KOVE/server/modules/private_constants.js Edit with your configs.
+## Here is an example of the file ~/kove/server/modules/private_constants.js Edit with your configs.
 ```
 'use strict';
 
@@ -49,12 +49,11 @@ exports.walletspassphrase = {
 **After, you can run exchange**
 
 ```
-cd ~/KOVE/databaseServer
+cd ~/kove/databaseServer
 [sudo] forever start main.js
-cd ~/KOVE/accountsserver
-git checkout master
+cd ~/kove/accountsserver
 [sudo] forever start main.js
-cd  ~/KOVE/server
+cd  ~/kove/server
 [sudo] forever start main.js
 ```
 
