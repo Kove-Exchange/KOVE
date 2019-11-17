@@ -1,0 +1,17 @@
+{
+  "name": "KOVE",
+  "version": "0.0.1",
+  "description": "KOVE - The KMD & ARRR ecosystem exchange.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kove-Exchange/kove.git"
+  },
+  "dependencies": {
+    "express": "latest",
+    "ws": "latest",
+    "sendmail": "latest",
+    "sqlite3": "latest",
+    "ejs": "latest",
+    "cors": "latest"
+  }
+}
