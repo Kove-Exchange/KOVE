@@ -58,7 +58,7 @@ cd  ~/kove/server
 ```
 
 In your browser address bar, type https://127.0.0.1
-You will see KOVE.
+You will see Kove.
 
 The first registered user will be exchange administrator. 
 
@@ -97,7 +97,7 @@ Also, you must encrypt your cryptocurrency wallet with this command.
 *If coin is not supported by encryption (like ZerroCash and it forks) the coin can not be added to KOVE.*
 
 
-Add your coin details to KOVE
+Add your coin details to Kove
 
 1. Register on exchange. The first registered user will be exchange administrator.
 2. Go to "Admin Area" -> "Coins" -> "Add coin"
@@ -108,9 +108,9 @@ Add your coin details to KOVE
 
 All visible coins should be appear in the Wallet. You should create default coin pairs now.
 
-File ~/KOVE/server/constants.js have settings that you can change
+File ~/kove/server/constants.js have settings that you can change
 
-https://github.com/Kove-Exchange/KOVE/blob/master/server/constants.js
+https://github.com/Kove-Exchange/kove/blob/master/server/constants.js
 
 ```
 exports.NOREPLY_EMAIL = 'no-reply@email.com'; //change no-reply email
@@ -126,7 +126,7 @@ exports.recaptcha_pub_key = "6LeX5SQUAAAAAKTieM68Sz4MECO6kJXsSR7_sGP1"; //change
 
 ```
 
-File ~/KOVE/static_pages/chart.html
+File ~/kove/static_pages/chart.html
 
 ```
 const PORT_SSL = 40443; //change to your ssl port (usualy 443)
@@ -142,6 +142,6 @@ After that, you coins should appear on the main page.
 
 KOVE is released under the terms of the MIT license. See LICENSE for more information or see https://opensource.org/licenses/MIT.
 
-KOVE uses open source software from OpenTrade.
+Kove uses open source software from OpenTrade.
 
 
